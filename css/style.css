@@ -1,0 +1,87 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#content{
+    min-height: 600px;    
+}
+
+.atypical{
+    background-image: url(../img/atypical.png);
+    background-size: cover;  
+}
+
+#item_list {
+    padding-top: 50px;
+}
+
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+.red{
+    color:red;
+}
+
+#settings-container{
+    margin-bottom:10px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+}
+
+.remove_item_link{
+    color:#0000ff;
+}
+
+.a-sidebar{
+    background-color: aquamarine;
+    background-image: linear-gradient(gold,silver,gold);
+    height: 600px;
+}
+
+.a-sidebar li a:hover {
+    background-color: cornflowerblue;
+    background-image: linear-gradient(cyan,aquamarine,turquoise);
+
+}
+
+.admin-bg{
+    background-image: url(../img/safe.png);
+    background-size: cover;  
+}
